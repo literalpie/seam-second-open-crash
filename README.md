@@ -5,3 +5,6 @@ On the second run, the app crashes with the error:
 > Unexpectedly found nil while unwrapping an Optional value: file
 
 You can "reset" the app so it works again (once) by renaming the sqlite file on line 49 of the app delegate.
+
+
+This all happens local on the device, before syncing is ever attempted (no verifying of cloudkit status).
