@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Seam3",
+        "repositoryURL": "https://github.com/paulw11/Seam3.git",
+        "state": {
+          "branch": null,
+          "revision": "a022bd2df648cf78b5e07b5b6a2f351d31287e35",
+          "version": "1.5.6"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

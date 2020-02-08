@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45773C2523EEEC9600562F64 /* mockMOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45773C2423EEEC9600562F64 /* mockMOC.swift */; };
+		45773C2823EEEEF600562F64 /* Seam3 in Frameworks */ = {isa = PBXBuildFile; productRef = 45773C2723EEEEF600562F64 /* Seam3 */; };
+		45773C2C23EEEFE700562F64 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45773C2B23EEEFE700562F64 /* CloudKit.framework */; };
+		45773C3023EEF79B00562F64 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45773C2F23EEF79B00562F64 /* Item+CoreDataProperties.swift */; };
+		45AC08E923EEE7FA00855CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC08E823EEE7FA00855CEA /* AppDelegate.swift */; };
+		45AC08EB23EEE7FA00855CEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC08EA23EEE7FA00855CEA /* SceneDelegate.swift */; };
+		45AC08EE23EEE7FA00855CEA /* SeamUpdates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45AC08EC23EEE7FA00855CEA /* SeamUpdates.xcdatamodeld */; };
+		45AC08F223EEE7FF00855CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AC08F123EEE7FF00855CEA /* Assets.xcassets */; };
+		45AC08F523EEE7FF00855CEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AC08F423EEE7FF00855CEA /* Preview Assets.xcassets */; };
+		45AC08F823EEE7FF00855CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45AC08F623EEE7FF00855CEA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45773C2423EEEC9600562F64 /* mockMOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockMOC.swift; sourceTree = "<group>"; };
+		45773C2923EEEFE100562F64 /* SeamUpdates.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeamUpdates.entitlements; sourceTree = "<group>"; };
+		45773C2B23EEEFE700562F64 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		45773C2F23EEF79B00562F64 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataProperties.swift"; path = "SeamSecondOpenCrash/Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45AC08E523EEE7FA00855CEA /* SeamSecondOpenCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeamSecondOpenCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AC08E823EEE7FA00855CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45AC08EA23EEE7FA00855CEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45AC08ED23EEE7FA00855CEA /* SeamUpdates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeamUpdates.xcdatamodel; sourceTree = "<group>"; };
+		45AC08F123EEE7FF00855CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45AC08F423EEE7FF00855CEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45AC08F723EEE7FF00855CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45AC08F923EEE7FF00855CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45AC08E223EEE7FA00855CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45773C2823EEEEF600562F64 /* Seam3 in Frameworks */,
+				45773C2C23EEEFE700562F64 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45773C2323EEEC8600562F64 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				45773C2423EEEC9600562F64 /* mockMOC.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		45773C2A23EEEFE700562F64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45773C2B23EEEFE700562F64 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45AC08DC23EEE7FA00855CEA = {
+			isa = PBXGroup;
+			children = (
+				45773C2F23EEF79B00562F64 /* Item+CoreDataProperties.swift */,
+				45AC08E723EEE7FA00855CEA /* SeamSecondOpenCrash */,
+				45AC08E623EEE7FA00855CEA /* Products */,
+				45773C2A23EEEFE700562F64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45AC08E623EEE7FA00855CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45AC08E523EEE7FA00855CEA /* SeamSecondOpenCrash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45AC08E723EEE7FA00855CEA /* SeamSecondOpenCrash */ = {
+			isa = PBXGroup;
+			children = (
+				45773C2923EEEFE100562F64 /* SeamUpdates.entitlements */,
+				45773C2323EEEC8600562F64 /* Mocks */,
+				45AC08E823EEE7FA00855CEA /* AppDelegate.swift */,
+				45AC08EA23EEE7FA00855CEA /* SceneDelegate.swift */,
+				45AC08F123EEE7FF00855CEA /* Assets.xcassets */,
+				45AC08F623EEE7FF00855CEA /* LaunchScreen.storyboard */,
+				45AC08F923EEE7FF00855CEA /* Info.plist */,
+				45AC08EC23EEE7FA00855CEA /* SeamUpdates.xcdatamodeld */,
+				45AC08F323EEE7FF00855CEA /* Preview Content */,
+			);
+			path = SeamSecondOpenCrash;
+			sourceTree = "<group>";
+		};
+		45AC08F323EEE7FF00855CEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45AC08F423EEE7FF00855CEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45AC08E423EEE7FA00855CEA /* SeamSecondOpenCrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AC08FC23EEE7FF00855CEA /* Build configuration list for PBXNativeTarget "SeamSecondOpenCrash" */;
+			buildPhases = (
+				45AC08E123EEE7FA00855CEA /* Sources */,
+				45AC08E223EEE7FA00855CEA /* Frameworks */,
+				45AC08E323EEE7FA00855CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeamSecondOpenCrash;
+			packageProductDependencies = (
+				45773C2723EEEEF600562F64 /* Seam3 */,
+			);
+			productName = SeamUpdates;
+			productReference = 45AC08E523EEE7FA00855CEA /* SeamSecondOpenCrash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45AC08DD23EEE7FA00855CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Benjamin Kindle";
+				TargetAttributes = {
+					45AC08E423EEE7FA00855CEA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 45AC08E023EEE7FA00855CEA /* Build configuration list for PBXProject "SeamSecondOpenCrash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45AC08DC23EEE7FA00855CEA;
+			packageReferences = (
+				45773C2623EEEEF600562F64 /* XCRemoteSwiftPackageReference "Seam3" */,
+			);
+			productRefGroup = 45AC08E623EEE7FA00855CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45AC08E423EEE7FA00855CEA /* SeamSecondOpenCrash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45AC08E323EEE7FA00855CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AC08F823EEE7FF00855CEA /* LaunchScreen.storyboard in Resources */,
+				45AC08F523EEE7FF00855CEA /* Preview Assets.xcassets in Resources */,
+				45AC08F223EEE7FF00855CEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45AC08E123EEE7FA00855CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45773C2523EEEC9600562F64 /* mockMOC.swift in Sources */,
+				45AC08EE23EEE7FA00855CEA /* SeamUpdates.xcdatamodeld in Sources */,
+				45AC08E923EEE7FA00855CEA /* AppDelegate.swift in Sources */,
+				45AC08EB23EEE7FA00855CEA /* SceneDelegate.swift in Sources */,
+				45773C3023EEF79B00562F64 /* Item+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45AC08F623EEE7FF00855CEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45AC08F723EEE7FF00855CEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45AC08FA23EEE7FF00855CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45AC08FB23EEE7FF00855CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45AC08FD23EEE7FF00855CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SeamSecondOpenCrash/SeamUpdates.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SeamSecondOpenCrash/Preview Content\"";
+				DEVELOPMENT_TEAM = Z6E4CU9G46;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SeamSecondOpenCrash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = literalpie.SeamSecondOpenCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45AC08FE23EEE7FF00855CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SeamSecondOpenCrash/SeamUpdates.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SeamSecondOpenCrash/Preview Content\"";
+				DEVELOPMENT_TEAM = Z6E4CU9G46;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SeamSecondOpenCrash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = literalpie.SeamSecondOpenCrash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45AC08E023EEE7FA00855CEA /* Build configuration list for PBXProject "SeamSecondOpenCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AC08FA23EEE7FF00855CEA /* Debug */,
+				45AC08FB23EEE7FF00855CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AC08FC23EEE7FF00855CEA /* Build configuration list for PBXNativeTarget "SeamSecondOpenCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AC08FD23EEE7FF00855CEA /* Debug */,
+				45AC08FE23EEE7FF00855CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45773C2623EEEEF600562F64 /* XCRemoteSwiftPackageReference "Seam3" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paulw11/Seam3.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45773C2723EEEEF600562F64 /* Seam3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45773C2623EEEEF600562F64 /* XCRemoteSwiftPackageReference "Seam3" */;
+			productName = Seam3;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		45AC08EC23EEE7FA00855CEA /* SeamUpdates.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45AC08ED23EEE7FA00855CEA /* SeamUpdates.xcdatamodel */,
+			);
+			currentVersion = 45AC08ED23EEE7FA00855CEA /* SeamUpdates.xcdatamodel */;
+			path = SeamUpdates.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45AC08DD23EEE7FA00855CEA /* Project object */;
+}
